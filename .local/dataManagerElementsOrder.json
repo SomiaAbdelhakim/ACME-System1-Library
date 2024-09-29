@@ -1,0 +1,176 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "LoginExist&Sequence_29",
+        "isDashboardExists&Sequence_25",
+        "CredExsits&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Email",
+        "in_RetryNum",
+        "in_RetryInterval",
+        "in_Password"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_ExtractItemsDetails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ItemsDeailsExists&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "out_AccountDetails",
+        "out_ClientID",
+        "out_AccNumber",
+        "out_AccAmount",
+        "in_WIID"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "LoginExist&Sequence_18"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SystemExist&Sequence_14",
+        "LoginExists&Sequence_15"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_NavigateToItemsDetails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ItemsDeailsExists&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "in_WIID"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_NavigateToWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DashboardExists&Sequence_15",
+        "WorkItemsExists&Sequence_16"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_OpenUpdateStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ItemsDetailsExists&Sequence_6",
+        "UpdateItemExists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_ReadWorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "WorkItemsExists&Sequence_10",
+        "dtFilteredData&Sequence_11",
+        "ClientID&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "out_ExtractDataTable"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_UpdateStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UpdateItemExists&Sequence_14",
+        "ItemUpdated&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval",
+        "in_WIID",
+        "in_IsComplete"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_ClickOk_UpdateStatusWindow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ItemUpdatedWindow_Exists&Sequence_8",
+        "ItemDetailsExists&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMESystem1/ACME1_CloseUpdateStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UpdateStatusExists&Sequence_6",
+        "WorkItemDetailsExists&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_RetryNum",
+        "in_RetryInterval"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
