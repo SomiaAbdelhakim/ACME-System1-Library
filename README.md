@@ -7,6 +7,7 @@ The ACME1_Library is a robust and reusable automation component designed to stre
 
 ### ACME1_Library
 Below is an overview of the key activities included in the library:
+![Activites](https://github.com/SomiaAbdelhakim/ACME1-System-Library/blob/main/Activities.png)
 
 1. **Launch:**
    - Initiates the web application, ensuring it is ready for interaction.
@@ -25,7 +26,6 @@ Below is an overview of the key activities included in the library:
 
 6. **Update Status:**
    - Updates the status of transactions based on verification results.
-
 
 
 ### Prerequisites
